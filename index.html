@@ -138,6 +138,24 @@ background:linear-gradient(transparent,rgba(20,30,30,.78));color:white;font-weig
     <p>Schreib mir gern eine unverbindliche Nachricht. Wir können kurz besprechen, worum es geht und ob Peer-Beratung für dich passen könnte.</p>
     <p><strong>E-Mail:</strong> <a href="mailto:deine-email@example.com">deine-email@example.com</a></p>
     <p><strong>Ort / Format:</strong> [z. B. online, vor Ort, Telefon]</p>
+    <form action="https://formspree.io/f/mdeoeaqn" method="POST">
+  <p>
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" required>
+  </p>
+
+  <p>
+    <label for="email">E-Mail</label><br>
+    <input type="email" id="email" name="email" required>
+  </p>
+
+  <p>
+    <label for="message">Nachricht</label><br>
+    <textarea id="message" name="message" rows="6" required></textarea>
+  </p>
+
+  <button type="submit">Nachricht senden</button>
+</form>
     <p class="notice">Wichtig: Bei akuter Selbst- oder Fremdgefährdung oder einem medizinischen Notfall bitte sofort den örtlichen Notruf bzw. eine psychiatrische Notfallversorgung kontaktieren. Peer-Beratung ist kein Ersatz für eine Notfallbehandlung.</p>
   </div>
 </section>
